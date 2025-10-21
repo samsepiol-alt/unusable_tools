@@ -1,6 +1,6 @@
 # sql_fuzzcat.py - Lightweight SQL Injection fuzzer inspired by sqlmap and ffuf and cats ^o.o^
 # Optimized for low spec hardware: minimal deps, efficient loops, optional async
-# Security: Input validation, no eval/exec. Usage: python light_sqli_fuzzer.py -u <url> -p <param>
+# Security: Input validation, no eval/exec. Usage: python sql_fuzzcat.py -u <url> -p <param>
 # Author: samsepiol-alt - for learning purposes
 # Install: pip install requests, aiohttp 
 # Example: python sql_fuzzcat.py -u "http://example.com/search?q={query}" -p query
